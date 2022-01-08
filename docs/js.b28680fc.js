@@ -4190,7 +4190,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = exports.checkPrefix = exports._getBBox = exports._createElement = exports.CSSPlugin = void 0;
 
-var _gsapCore = require("./gsap-core.js.js");
+var _gsapCore = require("./gsap-core.js.js.js");
 
 /*!
  * CSSPlugin 3.9.1
@@ -5743,9 +5743,9 @@ Object.defineProperty(exports, "TweenLite", {
 });
 exports.gsap = exports.default = exports.TweenMax = void 0;
 
-var _gsapCore = require("./gsap-core.js.js");
+var _gsapCore = require("./gsap-core.js.js.js");
 
-var _CSSPlugin = require("./CSSPlugin.js.js");
+var _CSSPlugin = require("./CSSPlugin.js.js.js");
 
 var gsapWithCSS = _gsapCore.gsap.registerPlugin(_CSSPlugin.CSSPlugin) || _gsapCore.gsap,
     // to protect from tree shaking
